@@ -117,7 +117,7 @@ if (window.innerWidth < 768) {
   let what_content = document.getElementById("what-we-do");
 
   let who_we_are_html = `<div class="boxes-A">
-<div class="image"><img src="" alt="who we are 1" /></div>
+<div class="image"><img src="src/Assets/who-we-are/who-we-are.png" alt="who we are 1" /></div>
             <p>
               A vibrant, unstoppable team of over 50 innovators from Sinhgad
               colleges. United by passion and powered by creativity, we design,
@@ -129,7 +129,7 @@ if (window.innerWidth < 768) {
             
           </div>
           <div class="boxes-A">
-            <div class="image"><img src="" alt="who we are 2" /></div>
+            <div class="image"><img src="src/Assets/who-we-are/who-we-are2.jpg" alt="who we are 2" /></div>
 
             <p>
               But we’re more than competitors, we’re educators and dreamers.
