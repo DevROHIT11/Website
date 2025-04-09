@@ -1,0 +1,157 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+} */
+
+body {
+    background-color: #000000;
+    /* padding: 20px; */
+}
+
+.project-container {
+    max-width: 1200px;
+    margin: 7rem auto;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: rgb(33, 33, 33);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: aqua;
+    text-align: center;
+}
+
+.card-brief {
+    font-size: 18px;
+    color: #a4a4a4;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.modal.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal-content {
+    background-color: rgb(36, 36, 36);
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+    transform: scale(0.8);
+    transition: transform 0.3s ease;
+}
+
+.modal.active .modal-content {
+    transform: scale(1);
+}
+
+.modal-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color:aqua;
+}
+
+.modal-description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #a9a9a9;
+}
+.tech-specs  ul{
+    color: rgb(212, 211, 211);
+}
+.tech-specs h3{
+    font-size: 17px;
+}
+
+/* Responsive design */
+@media (max-width: 992px) {
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card{
+        margin: auto;
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card{
+        margin: auto;
+        width: 80%;
+    }
+    .modal.active .modal-content {
+        transform: scale(1);
+        width: 70%;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-grid {
+        grid-template-columns: 1fr;
+        
+    }
+    .card{
+        margin: auto;
+        width: 80%;
+    }
+    .card{
+        margin: auto;
+        width: 80%;
+    }
+    .modal.active .modal-content {
+        transform: scale(1);
+        width: 70%;
+    }
+}
