@@ -338,7 +338,7 @@ margin-right: 0rem;
     width: 90%;
 }
 .boxes-A{
-    margin: 1rem;
+    margin: 3rem;
     height: 200px;
      display: grid;
      grid-template-columns: repeat(2 , 1fr);
@@ -370,7 +370,7 @@ margin-right: 0rem;
 .image{
 display: flex;
 justify-content: center;
-
+border-radius: 0%;
 
 }
 .image img{
@@ -378,7 +378,7 @@ justify-content: center;
     height: 222px;
     justify-self: center;
     position:relative;
- right:0%;
+    right:0%;
  
 }
 
