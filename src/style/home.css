@@ -311,7 +311,7 @@ opacity: 1;
 
 /* WHO WE ARE  */
 .header1 {
-    margin: 11rem auto;
+    margin: 11rem auto 2rem auto;
     padding: 1rem;
 }
 .header1 h1{
@@ -522,4 +522,76 @@ transition: border-bottom 0.2s ease-out ;
     align-self: baseline;
     align-items: first baseline;
 }
+
+/* return to top  */
+#topBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 99;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  #topBtn:hover {
+    background-color: #333;
+    transform: scale(1.05);
+  }
+  #topBtn img {
+    display: flex;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* 📱 Small devices (phones) */
+  @media screen and (max-width: 480px) {
+    #topBtn {
+      font-size: 16px;
+      padding: 10px;
+      bottom: 20px;
+      right: 15px;
+    }
+    #topBtn img {
+        width: 16px;
+        height: 16px;
+      }
+  }
+  
+  /* 🧾 Medium devices (tablets) */
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    #topBtn {
+      font-size: 18px;
+      padding: 12px;
+      bottom: 25px;
+      right: 18px;
+    }
+    #topBtn img {
+        width: 16px;
+        height: 16px;
+      }
+  }
+  
+  /* 💻 Large devices (laptops/desktops) */
+  @media screen and (min-width: 769px) {
+    #topBtn {
+      font-size: 22px;
+      padding: 15px;
+      bottom: 30px;
+      right: 20px;
+    }
+     #topBtn img {
+        width: 16px;
+        height: 16px;
+      }
+  }
 

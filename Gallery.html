@@ -6,7 +6,7 @@
     <title>Stes-Robotics | Gallery </title>
     <link rel="stylesheet" href="src/style/home.css" />
     <link rel="stylesheet" href="src/style/mediaquery.css">
-    <link rel="stylesheet" href="src/style/sponsorship.css">
+    <link rel="stylesheet" href="src/style/gallery.css">
 </head>
 <body>
      <!-- NAVBAR SECTION -->
@@ -111,72 +111,96 @@
       <div class="aqua">GALLERY</div>
     </h1>
 
-    <!-- <div class="sponsor-content">
-        <h3>Coming soon...!!</h3>
-      </div> -->
-
-      <div class="updates-container">
-        <h2>Coming soon ...!!</h2>
-      </div>
   </div>
 
-  
+  <!-- IMAGE GALLERY -->
+  <div class="container">
 
-       <!-- footer -->
+    
+    <div class="filter-container">
+        <button class="filter-button active" data-filter="all">All</button>
+        <button class="filter-button" data-filter="Group-Photos">Group Photos</button>
+        <button class="filter-button" data-filter="tradition">Tradition</button>
+        <button class="filter-button" data-filter="in-action">In Action</button>
+        <button class="filter-button" data-filter="recruitment">Recruitment</button>
+        <button class="filter-button" data-filter="winning">Winning</button>
+        <button class="filter-button" data-filter="aissms">AISSMS</button>
+        <button class="filter-button" data-filter="keystone">Keystone College</button>
+        <button class="filter-button" data-filter="vit">VIT, Pune</button>
+        <button class="filter-button" data-filter="vjti">VJTI</button>
+    </div>
+    
+    <div class="gallery" id="gallery">
+        <!-- Images will be populated here -->
+       
+    </div>
+</div>
+
+<!-- return to top -->
+<button onclick="topFunction()" id="topBtn" title="Go to top">
+  <img src="src/Assets/other-icons/up-arrow.png" alt="up-arrow">
+</button>
+
+  <!-- return to top -->
+  <button onclick="topFunction()" id="topBtn" title="Go to top">
+    <img src="src/Assets/other-icons/up-arrow.png" alt="up-arrow">
+  </button>
+  
+     <!-- footer -->
     <footer>
-        <div id="footer" class="footer-container">
-        <div class="about-stes">
-            <img src="src/Assets/stes-logo/Stes-logo.png" alt="stes-logo">
-          <p>
-            STES Robotics isn't just a team, we are a movement forging a legacy where innovation meets purpose, and every robot we create tells a story of passion, teamwork, and vision for the future.
-          </p>
-          <div  class="copyright">
-            <p style="
-            font-size: 1rem;
-        " >© 2025 STES Robotics. All Rights Reserved.</p>
-          </div>
+      <div id="footer" class="footer-container">
+      <div class="about-stes">
+          <img src="src/Assets/stes-logo/Stes-logo.png" alt="stes-logo">
+        <p>
+          STES Robotics isn't just a team, we are a movement forging a legacy where innovation meets purpose, and every robot we create tells a story of passion, teamwork, and vision for the future.
+        </p>
+        <div  class="copyright">
+          <p style="
+          font-size: 1rem;
+      " >© 2025 STES Robotics. All Rights Reserved.</p>
         </div>
-        <div class="footer-menu"><h3>MENU</h3>
-  <div class="footer-menu-items"><a href="index.html">Home</a></div>
-  <div class="footer-menu-items"><a href="about.html">About Us</a></div>
-  <div class="footer-menu-items"><a href="Gallery.html">Gallery</a></div>
-  <div class="footer-menu-items"><a href="contact.html"> Contact Us</a></div>
+      </div>
+      <div class="footer-menu"><h3>MENU</h3>
+<div class="footer-menu-items"><a href="index.html">Home</a></div>
+<div class="footer-menu-items"><a href="about.html">About Us</a></div>
+<div class="footer-menu-items"><a href="Gallery.html">Gallery</a></div>
+<div class="footer-menu-items"><a href="contact.html"> Contact Us</a></div>
+      </div>
+      <div class="footer-policies"><h3>POLICIES</h3>
+<div class="footer-policies-items"><a href="#">Privacy Policy</a></div>
+<div class="footer-policies-items">
+  <a href="faq.html">FAQ</a></div>
+      </div>
+      <div id="robo-safar" class="robo-safar">
+        <div class="robo-safar-img">
+          <img src="src/Assets/robo-safar-logo/robo-safar-logo.png" alt="robo-safar-img">
         </div>
-        <div class="footer-policies"><h3>POLICIES</h3>
-  <div class="footer-policies-items">Privacy Policy</div>
-  <div class="footer-policies-items">
-    <a href="faq.html"></a>FAQ</div>
+        <div class="join-us-btn">
+          <button class="apply" >Apply Now</button>
         </div>
-        <div id="robo-safar" class="robo-safar">
-          <div class="robo-safar-img">
-            <img src="src/Assets/robo-safar-logo/robo-safar-logo.png" alt="robo-safar-img">
-          </div>
-          <div class="join-us-btn">
-            <button  id="apply">Apply Now</button>
-          </div>
-          <div class="socials">
-            <a href="https://www.youtube.com/channel/UCJ3my8s19_uZYK6goPZMV9A">
-              <img src="src/Assets/social-icons/youtube.png" alt="youtube">
-            </a>
-            <a href="https://www.instagram.com/stesrobotics/">
-              <img src="src/Assets/social-icons/instagram.png" alt="instagram">
-            </a>
-            <a href="https://in.linkedin.com/company/stesrobotics"><img src="src/Assets/social-icons/linkedin.png" alt=""></a>
-          </div>
+        <div class="socials">
+          <a href="https://www.youtube.com/channel/UCJ3my8s19_uZYK6goPZMV9A">
+            <img src="src/Assets/social-icons/youtube.png" alt="youtube">
+          </a>
+          <a href="https://www.instagram.com/stesrobotics/">
+            <img src="src/Assets/social-icons/instagram.png" alt="instagram">
+          </a>
+          <a href="https://in.linkedin.com/company/stesrobotics"><img src="src/Assets/social-icons/linkedin.png" alt=""></a>
         </div>
       </div>
     </div>
-      </footer>
+  </div>
+    </footer>
 </body>
+
+<!-- gallery  -->
+ <script src="src/javascript/gallery.js"></script>
 <!-- home animation -->
 <script src="src/javascript/home-animation.js"></script>
 
 <!-- mediaquery -->
 <script src="src/javascript/mediaquery.js"></script>
 
-<!-- UNDER CONSTRUCTION -->
-<script>
-  alert("This page is coming soon..!!")
- </script>
+
 
 </html>
