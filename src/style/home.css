@@ -649,8 +649,8 @@ transition: border-bottom 0.2s ease-out ;
       cursor: pointer;
     }
     #topBtn img {
-        width: 16px;
-        height: 16px;
+        width: 24px;
+        height: 24px;
         pointer-events: none;              /* Prevent right-click/interaction */
         -webkit-user-drag: none;           /* Chrome, Safari */
         user-select: none;                 /* Prevent text/image selection */
@@ -679,8 +679,8 @@ transition: border-bottom 0.2s ease-out ;
       cursor: pointer;
     }
     #topBtn img {
-        width: 16px;
-        height: 16px;
+        width: 24px;
+        height: 24px;
         pointer-events: none;              /* Prevent right-click/interaction */
         -webkit-user-drag: none;           /* Chrome, Safari */
         user-select: none;                 /* Prevent text/image selection */
@@ -699,8 +699,8 @@ transition: border-bottom 0.2s ease-out ;
       right: 20px;
     }
      #topBtn img {
-        width: 16px;
-        height: 16px;
+        width: 24px;
+        height: 24px;
         pointer-events: none;              /* Prevent right-click/interaction */
         -webkit-user-drag: none;           /* Chrome, Safari */
         user-select: none;                 /* Prevent text/image selection */
