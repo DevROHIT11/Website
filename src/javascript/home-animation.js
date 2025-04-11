@@ -129,7 +129,7 @@ if (window.innerWidth < 768) {
             
           </div>
           <div class="boxes-A">
-            <div class="image"><img src="src/Assets/who-we-are/who-we-are2.jpg" alt="who we are 2" /></div>
+            <div class="image"><img src="src/Assets/who-we-are/who-we-are-2.png" alt="who we are 2" /></div>
 
             <p>
               But we’re more than competitors, we’re educators and dreamers.

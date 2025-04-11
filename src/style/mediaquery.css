@@ -166,6 +166,7 @@
         width: 65%;  /* Make image responsive */
         height: auto;  /* Keep the aspect ratio intact */
         max-width: 300px;  /* Set a max width for better scaling */
+        border-radius: 24px;
     }
 
     .para h3 {
