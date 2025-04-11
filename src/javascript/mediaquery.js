@@ -55,6 +55,8 @@ else if (mediaQuery2.matches) {
 let apply2 = document.querySelectorAll(".apply2");
 apply2.forEach((Element) => {
   Element.addEventListener("click", () => {
-    alert(`SORRY...!! Recruitment process is closed now !!`);
+    alert(`Sorry...!
+The recruitment process is now closed.
+However, interested candidates can still send their resumes to stesrobotics@gmail.com for future opportunities.`);
   });
 });
