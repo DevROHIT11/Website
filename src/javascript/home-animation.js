@@ -137,9 +137,8 @@ if (window.innerWidth < 768) {
              
 
               <p style="text-align: center;">
-                We Build Our team designs and develops advanced robots,
-                combining creativity and precision to tackle challenges in
-                robotics competitions and real-world applications.
+                   We Build
+                our team designs and develops advanced robots, combining creativity and precision to tackle challenges in both robotics competitions and real-world applications.
               </p>
             </div>
             
@@ -152,7 +151,8 @@ if (window.innerWidth < 768) {
              
 
               <p style="text-align: center;">
-                We participate in top robotics competitions, putting our
+              
+                We take part in top robotics competitions, putting our engineering skills and teamwork to the test while striving for innovation and excellence. competitions, putting our
                 engineering skills and teamwork to the test while striving for
                 innovation and excellence.
               </p>
@@ -165,9 +165,8 @@ if (window.innerWidth < 768) {
             <div class="para">
               
               <p style="text-align: center;">
-                We participate in top robotics competitions, putting our
-                engineering skills and teamwork to the test while striving for
-                innovation and excellence.
+                
+Through our passion for robotics and dedication to innovation, we aim to inspire the next generation of engineers and creators. By sharing our journey and achievements, we encourage others to explore the limitless possibilities of technology and robotics.
               </p>
             </div>
             
@@ -178,9 +177,8 @@ if (window.innerWidth < 768) {
             <div class="para">
             
               <p style="text-align: center;">
-                We participate in top robotics competitions, putting our
-                engineering skills and teamwork to the test while striving for
-                innovation and excellence.
+                
+We work closely with fellow robotics enthusiasts, engineers, and institutions to share knowledge, exchange ideas, and co-create innovative robotic solutions. Our collaborative efforts help us stay at the forefront of emerging technologies and build a stronger robotics community.
               </p>
             </div>
           </div>
