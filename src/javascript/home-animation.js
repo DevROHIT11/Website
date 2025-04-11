@@ -194,21 +194,3 @@ apply.forEach((Element) => {
     alert(`SORRY...!! Recruitment process is closed now !!`);
   });
 });
-
-// return to top
-// show btn when 20 px is scrolled
-document.addEventListener("DOMContentLoaded", function () {
-  const btn = document.getElementById("topBtn");
-
-  window.addEventListener("scroll", function () {
-    const scrollY = window.pageYOffset || document.documentElement.scrollTop;
-    btn.style.display = scrollY > 50 ? "block" : "none";
-  });
-
-  btn.addEventListener("click", function () {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
-  });
-});
