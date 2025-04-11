@@ -136,67 +136,67 @@
         imageUrl: "src/Assets/gallery/Tradition/IMG-20250406-WA0047.jpg" // Replace with your image path
     },
 
-    // IN action
+    // In-action
     {
         id: 22,
         title: "gallery",
         categories:  ["in-action", "all"],
-        imageUrl: "src/Assets/gallery/In action/IMG-20241022-WA0002.jpg" // Replace with your image path
+        imageUrl: "src/Assets/gallery/In-action/IMG-20241022-WA0002.jpg" // Replace with your image path
     },
     {
         id: 23,
         title: "gallery",
         categories:  ["in-action", "all"],
-        imageUrl: "src/Assets/gallery/In action/IMG-20250219-WA0002.jpg" // Replace with your image path
+        imageUrl: "src/Assets/gallery/In-action/IMG-20250219-WA0002.jpg" // Replace with your image path
     },
     {
         id: 24,
         title: "gallery",
         categories:  ["in-action", "all"  , "keystone"],
-        imageUrl: "src/Assets/gallery/In action/IMG-20250228-WA0059.jpg" // Replace with your image path
+        imageUrl: "src/Assets/gallery/In-action/IMG-20250228-WA0059.jpg" // Replace with your image path
     },
     {
         id: 25,
         title: "gallery",
         categories:  ["in-action", "all" , "vit"],
-        imageUrl: "src/Assets/gallery/In action/IMG-20250407-WA0011.jpg" // Replace with your image path
+        imageUrl: "src/Assets/gallery/In-action/IMG-20250407-WA0011.jpg" // Replace with your image path
     }
     ,
     {
         id: 26,
         title: "gallery",
         categories:  ["in-action", "all"],
-        imageUrl: "src/Assets/gallery/In action/IMG-20250221-WA0034.jpg" // Replace with your image path
+        imageUrl: "src/Assets/gallery/In-action/IMG-20250221-WA0034.jpg" // Replace with your image path
     },
     {
         id: 27,
         title: "gallery",
         categories:  ["in-action", "all"],
-        imageUrl: "src/Assets/gallery/In action/IMG-20250219-WA0003.jpg" // Replace with your image path
+        imageUrl: "src/Assets/gallery/In-action/IMG-20250219-WA0003.jpg" // Replace with your image path
     },
     {
         id: 28,
         title: "gallery",
         categories:  ["in-action", "all" , "vit"],
-        imageUrl: "src/Assets/gallery/In action/IMG-20250407-WA0014.jpg" // Replace with your image path
+        imageUrl: "src/Assets/gallery/In-action/IMG-20250407-WA0014.jpg" // Replace with your image path
     },
     {
         id: 29,
         title: "gallery",
         categories:  ["in-action", "all"],
-        imageUrl: "src/Assets/gallery/In action/IMG-20250407-WA0015.jpg" // Replace with your image path
+        imageUrl: "src/Assets/gallery/In-action/IMG-20250407-WA0015.jpg" // Replace with your image path
     },
     {
         id: 30,
         title: "gallery",
         categories:  ["in-action", "all" , "vjti"],
-        imageUrl: "src/Assets/gallery/In action/IMG_20241223_130421218_HDR_PORTRAIT.jpg" // Replace with your image path
+        imageUrl: "src/Assets/gallery/In-action/IMG_20241223_130421218_HDR_PORTRAIT.jpg" // Replace with your image path
     },
     {
         id: 31,
         title: "gallery",
         categories:  ["in-action", "all" , "vjti"],
-        imageUrl: "src/Assets/gallery/In action/IMG_20241223_194521214_HDR.jpg" // Replace with your image path
+        imageUrl: "src/Assets/gallery/In-action/IMG_20241223_194521214_HDR.jpg" // Replace with your image path
     },
     
     //Recruitment 
