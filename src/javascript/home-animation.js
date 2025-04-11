@@ -185,7 +185,6 @@ We work closely with fellow robotics enthusiasts, engineers, and institutions to
         `;
   what_content.innerHTML = what_we_do_html;
   Who_content.innerHTML = who_we_are_html;
-  console.log(content);
 }
 
 // apply button
@@ -202,14 +201,14 @@ document.addEventListener("DOMContentLoaded", function () {
   const btn = document.getElementById("topBtn");
 
   window.addEventListener("scroll", function () {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      btn.style.display = "block";
-    } else {
-      btn.style.display = "none";
-    }
+    const scrollY = window.pageYOffset || document.documentElement.scrollTop;
+    btn.style.display = scrollY > 50 ? "block" : "none";
   });
 
-  window.topFunction = function () {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+  btn.addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
 });

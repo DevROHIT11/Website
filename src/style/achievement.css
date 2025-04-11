@@ -195,6 +195,12 @@ a:hover{
   width: 70px;
   height: 70px;
   object-fit: contain;
+  pointer-events: none;              /* Prevent right-click/interaction */
+  -webkit-user-drag: none;           /* Chrome, Safari */
+  user-select: none;                 /* Prevent text/image selection */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 .category-content {
@@ -282,6 +288,12 @@ a:hover{
   .trophy-icon img {
     width: 55px;
     height: 55px;
+    pointer-events: none;              /* Prevent right-click/interaction */
+    -webkit-user-drag: none;           /* Chrome, Safari */
+    user-select: none;                 /* Prevent text/image selection */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
   }
 
   .category-content h3 {

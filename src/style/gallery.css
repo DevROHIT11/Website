@@ -66,6 +66,12 @@ h1 {
     object-fit: cover;
     display: block;
     transition: transform 0.3s ease;
+    pointer-events: none;              /* Prevent right-click/interaction */
+    -webkit-user-drag: none;           /* Chrome, Safari */
+    user-select: none;                 /* Prevent text/image selection */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .gallery-item:hover img {

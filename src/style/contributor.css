@@ -166,6 +166,12 @@ span{
   width: 45px;
   height: 45px;
   transition: transform 0.3s ease;
+  pointer-events: none;              /* Prevent right-click/interaction */
+  -webkit-user-drag: none;           /* Chrome, Safari */
+  user-select: none;                 /* Prevent text/image selection */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 .cont-socials img:hover{
@@ -287,6 +293,12 @@ span{
   .cont-socials img {
       width: 28px;
       height: 28px;
+      pointer-events: none;              /* Prevent right-click/interaction */
+      -webkit-user-drag: none;           /* Chrome, Safari */
+      user-select: none;                 /* Prevent text/image selection */
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
   }
 }
 
@@ -319,5 +331,11 @@ span{
   .cont-socials img {
       width: 32px;
       height: 32px;
+      pointer-events: none;              /* Prevent right-click/interaction */
+      -webkit-user-drag: none;           /* Chrome, Safari */
+      user-select: none;                 /* Prevent text/image selection */
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
   }
 }

@@ -34,6 +34,12 @@ p{
 }
 .logo img {
     max-height: 50px; /* Adjust as needed */
+    pointer-events: none;              /* Prevent right-click/interaction */
+    -webkit-user-drag: none;           /* Chrome, Safari */
+    user-select: none;                 /* Prevent text/image selection */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 nav ul {
@@ -116,6 +122,12 @@ nav a {
     height: 100%;
     object-fit: cover;
     transition: opacity 0.3s ease;
+    pointer-events: none;              /* Prevent right-click/interaction */
+    -webkit-user-drag: none;           /* Chrome, Safari */
+    user-select: none;                 /* Prevent text/image selection */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .card-title {
@@ -150,6 +162,12 @@ nav a {
 
 .robot-image:hover img {
     opacity: 0.2;
+    pointer-events: none;              /* Prevent right-click/interaction */
+    -webkit-user-drag: none;           /* Chrome, Safari */
+    user-select: none;                 /* Prevent text/image selection */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 #team h2, #technical-team h2, #non-technical-team h2 {
@@ -187,6 +205,12 @@ nav a {
     object-fit: cover; /* Prevents image distortion */
     background-color: #151515; /* Placeholder background */
     margin: 20px 0;
+    pointer-events: none;              /* Prevent right-click/interaction */
+    -webkit-user-drag: none;           /* Chrome, Safari */
+    user-select: none;                 /* Prevent text/image selection */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .team-member h3 {
@@ -283,6 +307,12 @@ p{
 .team-member img {
     width: 220px;
     height: 220px;
+    pointer-events: none;              /* Prevent right-click/interaction */
+    -webkit-user-drag: none;           /* Chrome, Safari */
+    user-select: none;                 /* Prevent text/image selection */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 #team h2, #technical-team h2, #non-technical-team h2 {

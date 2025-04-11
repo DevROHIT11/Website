@@ -5,15 +5,23 @@ html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    
-       
       background: black;
     /* background-color: black; */
     color:white;
     margin: 0px;
     padding: 0px;
+    user-select: none;
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* IE/Edge */
 }
-
+ p, h1, h2, h3, div {
+    user-select: none;
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* IE/Edge */
+  }
+  
 
 .top-header{
     width: 100%;
@@ -52,6 +60,12 @@ align-items: center;
 .header-left img {
     width: 161px;
     height: 125px;
+    pointer-events: none;              /* Prevent right-click/interaction */
+  -webkit-user-drag: none;           /* Chrome, Safari */
+  user-select: none;                 /* Prevent text/image selection */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 /* Nav-Bar styling */
 .header-right{
@@ -413,6 +427,12 @@ border-radius: 0%;
     justify-self: center;
     position:relative;
     right:0%;
+    pointer-events: none;              /* Prevent right-click/interaction */
+    -webkit-user-drag: none;           /* Chrome, Safari */
+    user-select: none;                 /* Prevent text/image selection */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
  
 }
 
@@ -456,6 +476,12 @@ border-radius: 0%;
   max-width: 100%;
   height: auto;
   object-fit: contain;
+  pointer-events: none;              /* Prevent right-click/interaction */
+  -webkit-user-drag: none;           /* Chrome, Safari */
+  user-select: none;                 /* Prevent text/image selection */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 
@@ -484,6 +510,12 @@ border-radius: 0%;
 .about-stes img{
     width: 240px;
     height: auto;
+    pointer-events: none;              /* Prevent right-click/interaction */
+    -webkit-user-drag: none;           /* Chrome, Safari */
+    user-select: none;                 /* Prevent text/image selection */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 .footer-menu{
     display: flex;
@@ -534,6 +566,12 @@ transition: border-bottom 0.2s ease-out ;
 .robo-safar-img img{
     width: 240px;
     height: 200px;
+    pointer-events: none;              /* Prevent right-click/interaction */
+    -webkit-user-drag: none;           /* Chrome, Safari */
+    user-select: none;                 /* Prevent text/image selection */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 .join-us-btn button {
     padding: 0.5rem 4rem;
@@ -585,6 +623,12 @@ transition: border-bottom 0.2s ease-out ;
     align-items: center;
     width: 24px;
     height: 24px;
+    pointer-events: none;              /* Prevent right-click/interaction */
+    -webkit-user-drag: none;           /* Chrome, Safari */
+    user-select: none;                 /* Prevent text/image selection */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
   }
   
   /* 📱 Small devices (phones) */
@@ -594,10 +638,26 @@ transition: border-bottom 0.2s ease-out ;
       padding: 10px;
       bottom: 20px;
       right: 15px;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 9999;
+      display: none;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer;
     }
     #topBtn img {
         width: 16px;
         height: 16px;
+        pointer-events: none;              /* Prevent right-click/interaction */
+        -webkit-user-drag: none;           /* Chrome, Safari */
+        user-select: none;                 /* Prevent text/image selection */
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        
       }
   }
   
@@ -608,10 +668,25 @@ transition: border-bottom 0.2s ease-out ;
       padding: 12px;
       bottom: 25px;
       right: 18px;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 9999;
+      display: none;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer;
     }
     #topBtn img {
         width: 16px;
         height: 16px;
+        pointer-events: none;              /* Prevent right-click/interaction */
+        -webkit-user-drag: none;           /* Chrome, Safari */
+        user-select: none;                 /* Prevent text/image selection */
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
       }
   }
   
@@ -626,6 +701,12 @@ transition: border-bottom 0.2s ease-out ;
      #topBtn img {
         width: 16px;
         height: 16px;
+        pointer-events: none;              /* Prevent right-click/interaction */
+        -webkit-user-drag: none;           /* Chrome, Safari */
+        user-select: none;                 /* Prevent text/image selection */
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
       }
   }
 
