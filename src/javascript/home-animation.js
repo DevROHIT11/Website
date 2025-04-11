@@ -119,12 +119,7 @@ if (window.innerWidth < 768) {
   let who_we_are_html = `<div class="boxes-A">
 <div class="image"><img src="src/Assets/who-we-are/who-we-are.png" alt="who we are 1" /></div>
             <p>
-              A vibrant, unstoppable team of over 50 innovators from Sinhgad
-              colleges. United by passion and powered by creativity, we design,
-              build, and compete with groundbreaking robots that push the limits
-              of technology. From crafting bots like RoboSoccer champs, Maze
-              Solvers, and Sumo Warriors to leading Pune’s biggest tech fest,
-              Sinhgad Techtonic, we thrive on challenges and never back down.
+              "A vibrant, unstoppable team of over 50 innovators from Sinhgad colleges. United by passion and powered by creativity, we design, build, and compete with groundbreaking robots that push the limits of technology. From crafting bots like RoboSoccer champs, Maze Solvers, and Sumo Warriors to leading Pune’s biggest tech fest — Sinhgad Techtonic — we thrive on challenges and never back down."
             </p>
             
           </div>
@@ -132,11 +127,7 @@ if (window.innerWidth < 768) {
             <div class="image"><img src="src/Assets/who-we-are/who-we-are-2.png" alt="who we are 2" /></div>
 
             <p>
-              But we’re more than competitors, we’re educators and dreamers.
-              Through STEM outreach, we ignite young minds, spreading the spark
-              of robotics far and wide. Together, we’re not just building bots;
-              we’re building a future fueled by teamwork, dedication, and
-              boundless innovation.
+             "But we’re more than competitors — we’re educators and dreamers. Through STEM outreach, we ignite young minds, spreading the spark of robotics far and wide. Together, we’re not just building bots; we’re building a future fueled by teamwork, dedication, and boundless innovation."
             </p>
           </div>`;
 
