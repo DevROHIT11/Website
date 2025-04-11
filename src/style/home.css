@@ -13,35 +13,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
-.bg-gradient {
-    background: linear-gradient(132deg, #000000, #00ffff, #808080, #004f4f, #1a1a1a, #00aaff);
-    background-size: 400% 400%;
-    animation: BackgroundGradient 15s ease infinite;
-    width: 90%;
-    margin: auto;
-    border-radius: 20px;
-    /* Blur & Spread Effect */
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-}
 
-.bg-gradient::before {
-    content: '';
-    position: absolute;
-    top: -20%;
-    left: -20%;
-    width: 140%;
-    height: 140%;
-    background: inherit;
-    filter: blur(40px);
-    z-index: -1;
-}
-@keyframes BackgroundGradient {
-    0% {background-position: 0% 50%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0% 50%;}
-}
 
 .top-header{
     width: 100%;
@@ -230,8 +202,37 @@ display: none;
    border-radius: 12px ;
    text-align: center;
 }
+.bg-gradient {
+    background: linear-gradient(132deg, #000000, #00ffff, #808080, #004f4f, #1a1a1a, #00aaff);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 15s ease infinite;
+    width: 90%;
+    margin: 12rem auto 2rem auto;
+    border-radius: 20px;
+    /* Blur & Spread Effect */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.bg-gradient::before {
+    content: '';
+    position: absolute;
+    top: -20%;
+    left: -20%;
+    width: 140%;
+    height: 140%;
+    background: inherit;
+    filter: blur(40px);
+    z-index: -1;
+}
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
 .heading{
-    margin: 12rem auto 3rem auto;
+    margin: 3rem auto 3rem auto;
     padding: 1rem;
     width: 70%;
     text-align: center;
@@ -301,7 +302,7 @@ opacity: 1;
     margin: auto;
 }
 .at-glance h3{
-    margin: 5rem auto;
+    margin: 1rem auto;
     text-align: center;
     color: aqua;
     font-size: 2rem;

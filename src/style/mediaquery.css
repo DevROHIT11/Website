@@ -59,12 +59,15 @@
         width: 63%;  /* Increase width on small screens for better use of space */
         margin-top: 6rem;
     }
+    .bg-gradient {
+        margin: 10rem auto 2rem auto;
+    }
     .heading {
         display: flex;
         flex-direction: column;
         width: 90%;  /* Increase width on smaller screens */
         padding: 1rem;  /* Adjust padding */
-        margin: 6rem auto 0rem auto; 
+        margin:  auto ; 
         align-items: center;  /* Ensure horizontal centering */
         justify-content: center;  /* Ensure vertical centering */
     }
