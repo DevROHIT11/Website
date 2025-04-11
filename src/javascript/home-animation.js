@@ -208,22 +208,19 @@ apply.forEach((Element) => {
 });
 
 // return to top
-// retrun to top
-// Show button when user scrolls down 20px
-window.onscroll = function () {
-  scrollFunction();
-};
-
-function scrollFunction() {
+// show btn when 20 px is scrolled
+document.addEventListener("DOMContentLoaded", function () {
   const btn = document.getElementById("topBtn");
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    btn.style.display = "block";
-  } else {
-    btn.style.display = "none";
-  }
-}
 
-// Scroll to top
-function topFunction() {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-}
+  window.addEventListener("scroll", function () {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  });
+
+  window.topFunction = function () {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+});

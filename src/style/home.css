@@ -529,7 +529,7 @@ transition: border-bottom 0.2s ease-out ;
     position: fixed;
     bottom: 30px;
     right: 20px;
-    z-index: 99;
+    z-index: 9999;
     font-size: 22px;
     border: none;
     outline: none;
