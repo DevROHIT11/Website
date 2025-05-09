@@ -137,8 +137,7 @@ if (window.innerWidth < 768) {
              
 
               <p style="text-align: center;">
-                   We Build
-                our team designs and develops advanced robots, combining creativity and precision to tackle challenges in both robotics competitions and real-world applications.
+               Advanced robots, combining creativity and precision to tackle challenges in both robotics competitions and real-world applications.
               </p>
             </div>
             
@@ -152,7 +151,7 @@ if (window.innerWidth < 768) {
 
               <p style="text-align: center;">
               
-                We take part in top robotics competitions, putting our engineering skills and teamwork to the test while striving for innovation and excellence. competitions, putting our
+                In top robotics competitions, putting our engineering skills and teamwork to the test while striving for innovation and excellence. competitions, putting our
                 engineering skills and teamwork to the test while striving for
                 innovation and excellence.
               </p>
@@ -178,7 +177,7 @@ Through our passion for robotics and dedication to innovation, we aim to inspire
             
               <p style="text-align: center;">
                 
-We work closely with fellow robotics enthusiasts, engineers, and institutions to share knowledge, exchange ideas, and co-create innovative robotic solutions. Our collaborative efforts help us stay at the forefront of emerging technologies and build a stronger robotics community.
+Closely with fellow robotics enthusiasts, engineers, and institutions to share knowledge, exchange ideas, and co-create innovative robotic solutions. Our collaborative efforts help us stay at the forefront of emerging technologies and build a stronger robotics community.
               </p>
             </div>
           </div>
