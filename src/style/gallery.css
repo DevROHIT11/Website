@@ -1,0 +1,138 @@
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.filter-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    gap: 8px;
+    
+}
+
+.filter-button {
+    padding: 8px 16px;
+    background-color: #333333;
+    border: 2px solid #3e3e3e;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 21px;
+    transition: all 0.1s ease;
+    margin-bottom: 5px;
+}
+
+.filter-button:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.filter-button.active {
+    background-color: aqua;
+    color: black;
+    border-color: aqua;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+    gap: 8px;
+    margin: 2rem auto;
+  
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ddd;
+    position: relative;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+    pointer-events: none;              /* Prevent right-click/interaction */
+    -webkit-user-drag: none;           /* Chrome, Safari */
+    user-select: none;                 /* Prevent text/image selection */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+/* Different sized images for collage effect */
+.gallery-item:nth-child(2n) {
+    grid-row: span 2;
+}
+
+.gallery-item:nth-child(3n) {
+    grid-column: span 2;
+}
+
+.gallery-item:nth-child(5n) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+  
+/* Responsive adjustments */
+@media (max-width: 900px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        grid-auto-rows: 180px;
+        margin: 2rem auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        grid-auto-rows: 140px;
+        margin: 2rem auto;
+    }
+    
+    .gallery-item:nth-child(3n) {
+        grid-column: auto;
+    }
+    
+    .gallery-item:nth-child(5n) {
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 130px;
+        margin: 2rem auto;
+    }
+    
+    .gallery-item:nth-child(5n) {
+        grid-column: auto;
+        grid-row: auto;
+    }
+    
+    .filter-button {
+        padding: 6px 12px;
+        font-size: 15px;
+    }
+}

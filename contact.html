@@ -43,7 +43,7 @@
                             </li>
                             <li class="menu-item"><a href="index.html">Home</a></li>
                             <li class="menu-item"><a href="about.html">About us</a></li>
-                            <li class="menu-item"><a href="">Achievements & Blogs</a></li>
+                            <li class="menu-item"><a href="achievement.html">Achievements & Blogs</a></li>
                             <li class="menu-item"><a href="project.html">Projects</a></li>
                             <li class="menu-item"><a href="contributor.html">Contributors</a></li>
                             <li class="menu-item"><a href="store.html">Store</a></li>
@@ -78,7 +78,7 @@
                 <!-- DROPDOWN  -->
                 <div id="dropdown" class="dropdown">
                     <div class="box">
-                        <a href="">Achievements & Blogs</a>
+                        <a href="achievement.html">Achievements & Blogs</a>
                     </div>
                     <div class="box">
                         <a href="project.html">Projects</a>
@@ -119,7 +119,7 @@
                 <form action="https://api.web3forms.com/submit" method="POST"
                     onsubmit="emailSend(); reset(); return false;">
                     <div class="input-box">
-                        <input type="hidden" name="access_key" value="9d59cdf4-8ebf-411e-8d44-1112df53069d">
+                        <input type="hidden" name="access_key" value="7c76ceaa-21a4-49ad-8967-bf8a31aa21d4">
                         <input type="text" id="name" name="name" required>
                         <label>Name</label>
                     </div>
@@ -164,15 +164,18 @@
 
     </section>
 
-
+<!-- return to top -->
+<button id="topBtn" title="Go to top">
+    <img src="./src/Assets/other-icons/up-arrow.png" alt="up-arrow">
+  </button>
+  
     <!-- footer -->
     <footer>
         <div id="footer" class="footer-container">
             <div class="about-stes">
                 <img src="src/Assets/stes-logo/Stes-logo.png" alt="stes-logo">
                 <p>
-                    STES Robotics isn't just a team, we are a movement forging a legacy where innovation meets purpose,
-                    and every robot we create tells a story of passion, teamwork, and vision for the future.
+                    "STES Robotics isn't just a team — we're a movement, forging a legacy where innovation meets purpose, and every robot we create tells a story of passion, teamwork, and a vision for the future."
                 </p>
                 <div class="copyright">
                     <p style="
@@ -222,6 +225,9 @@
 <!-- mediaquery -->
 <script src="src/javascript/mediaquery.js"></script>
 <script src="src/javascript/home-animation.js"></script>
+
+<!-- reuturn to top -->
+<script src="./src/javascript/return-to-top.js"></script>
 
 
 </html>

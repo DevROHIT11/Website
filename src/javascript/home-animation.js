@@ -117,26 +117,17 @@ if (window.innerWidth < 768) {
   let what_content = document.getElementById("what-we-do");
 
   let who_we_are_html = `<div class="boxes-A">
-<div class="image"><img src="" alt="who we are 1" /></div>
+<div class="image"><img src="src/Assets/who-we-are/who-we-are.png" alt="who we are 1" /></div>
             <p>
-              A vibrant, unstoppable team of over 50 innovators from Sinhgad
-              colleges. United by passion and powered by creativity, we design,
-              build, and compete with groundbreaking robots that push the limits
-              of technology. From crafting bots like RoboSoccer champs, Maze
-              Solvers, and Sumo Warriors to leading Pune’s biggest tech fest,
-              Sinhgad Techtonic, we thrive on challenges and never back down.
+              "A vibrant, unstoppable team of over 50 innovators from Sinhgad colleges. United by passion and powered by creativity, we design, build, and compete with groundbreaking robots that push the limits of technology. From crafting bots like RoboSoccer champs, Maze Solvers, and Sumo Warriors to leading Pune’s biggest tech fest — Sinhgad Techtonic — we thrive on challenges and never back down."
             </p>
             
           </div>
           <div class="boxes-A">
-            <div class="image"><img src="" alt="who we are 2" /></div>
+            <div class="image"><img src="src/Assets/who-we-are/who-we-are-2.png" alt="who we are 2" /></div>
 
             <p>
-              But we’re more than competitors, we’re educators and dreamers.
-              Through STEM outreach, we ignite young minds, spreading the spark
-              of robotics far and wide. Together, we’re not just building bots;
-              we’re building a future fueled by teamwork, dedication, and
-              boundless innovation.
+             "But we’re more than competitors — we’re educators and dreamers. Through STEM outreach, we ignite young minds, spreading the spark of robotics far and wide. Together, we’re not just building bots; we’re building a future fueled by teamwork, dedication, and boundless innovation."
             </p>
           </div>`;
 
@@ -146,9 +137,8 @@ if (window.innerWidth < 768) {
              
 
               <p style="text-align: center;">
-                We Build Our team designs and develops advanced robots,
-                combining creativity and precision to tackle challenges in
-                robotics competitions and real-world applications.
+                   We Build
+                our team designs and develops advanced robots, combining creativity and precision to tackle challenges in both robotics competitions and real-world applications.
               </p>
             </div>
             
@@ -161,7 +151,8 @@ if (window.innerWidth < 768) {
              
 
               <p style="text-align: center;">
-                We participate in top robotics competitions, putting our
+              
+                We take part in top robotics competitions, putting our engineering skills and teamwork to the test while striving for innovation and excellence. competitions, putting our
                 engineering skills and teamwork to the test while striving for
                 innovation and excellence.
               </p>
@@ -174,9 +165,8 @@ if (window.innerWidth < 768) {
             <div class="para">
               
               <p style="text-align: center;">
-                We participate in top robotics competitions, putting our
-                engineering skills and teamwork to the test while striving for
-                innovation and excellence.
+                
+Through our passion for robotics and dedication to innovation, we aim to inspire the next generation of engineers and creators. By sharing our journey and achievements, we encourage others to explore the limitless possibilities of technology and robotics.
               </p>
             </div>
             
@@ -187,24 +177,22 @@ if (window.innerWidth < 768) {
             <div class="para">
             
               <p style="text-align: center;">
-                We participate in top robotics competitions, putting our
-                engineering skills and teamwork to the test while striving for
-                innovation and excellence.
+                
+We work closely with fellow robotics enthusiasts, engineers, and institutions to share knowledge, exchange ideas, and co-create innovative robotic solutions. Our collaborative efforts help us stay at the forefront of emerging technologies and build a stronger robotics community.
               </p>
             </div>
           </div>
         `;
   what_content.innerHTML = what_we_do_html;
   Who_content.innerHTML = who_we_are_html;
-  console.log(content);
 }
 
 // apply button
 let apply = document.querySelectorAll(".apply");
 apply.forEach((Element) => {
   Element.addEventListener("click", () => {
-    alert(`SORRY...!! Recruitment process is closed now !!`);
+    alert(`Sorry...!
+The recruitment process is now closed.
+However, interested candidates can still send their resumes to stesrobotics@gmail.com for future opportunities. `);
   });
 });
-
-// apply button at footer

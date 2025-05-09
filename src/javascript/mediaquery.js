@@ -7,7 +7,7 @@ let html = `
       <div class="about-stes">
           <img src="src/Assets/stes-logo/Stes-logo.png" alt="stes-logo">
         <p>
-          STES Robotics isn't just a team, we are a movement forging a legacy where innovation meets purpose, and every robot we create tells a story of passion, teamwork, and vision for the future.
+         "STES Robotics isn't just a team — we're a movement, forging a legacy where innovation meets purpose, and every robot we create tells a story of passion, teamwork, and a vision for the future."
         </p>
        
       </div>
@@ -55,6 +55,8 @@ else if (mediaQuery2.matches) {
 let apply2 = document.querySelectorAll(".apply2");
 apply2.forEach((Element) => {
   Element.addEventListener("click", () => {
-    alert(`SORRY...!! Recruitment process is closed now !!`);
+    alert(`Sorry...!
+The recruitment process is now closed.
+However, interested candidates can still send their resumes to stesrobotics@gmail.com for future opportunities.`);
   });
 });

@@ -6,7 +6,7 @@
     <title>Stes-Robotics | Project </title>
     <link rel="stylesheet" href="src/style/home.css" />
     <link rel="stylesheet" href="src/style/mediaquery.css">
-    <link rel="stylesheet" href="src/style/sponsorship.css">
+    <link rel="stylesheet" href="src/style/project.css">
 </head>
 <body>
      <!-- NAVBAR SECTION -->
@@ -76,7 +76,7 @@
           <!-- DROPDOWN  -->
           <div id="dropdown" class="dropdown">
             <div class="box">
-              <a href="">Achievements & Blogs</a>
+              <a href="achievement.html">Achievements & Blogs</a>
             </div>
             <div class="box">
               <a href="project.html">Projects</a>
@@ -105,22 +105,68 @@
       </div>
        </section>
       
-<!-- SPONSORSHIP -->
+<!-- PROJECT -->
 <div class="header1">
     <h1>
       <div class="aqua">PROJECT</div>
     </h1>
+  </div>
+    <!-- projects-cards -->
+    <div class="project-container">
+      <div class="card-grid">
+          <div class="card" data-id="1">
+              <img src="src/Assets/projects/sumo-bot.png" alt="Card 1" class="card-image">
+              <div class="card-content">
+                  <h3 class="card-title">Sumo Bot</h3>
+                  <p class="card-brief">Built for intense robotic sumo battles, this bot is designed to push opponents out of the ring while maintaining control. Fully manually operated, it allows for strategic maneuvering and quick reflexes during matches.</p>
+                  <p style="color: aqua;">see more...</p>
+              </div>
+          </div>
+          
+          <div class="card" data-id="2">
+              <img src="src/Assets/projects/soocer-bot.png" alt="Card 2" class="card-image">
+              <div class="card-content">
+                  <h3 class="card-title">Soccer Bot</h3>
+                  <p class="card-brief"> Designed for fast-paced robotic soccer matches, this bot offers excellent speed, agility, and precise control for dribbling, passing, and scoring. It ensures smooth and responsive handling for competitive gameplay.</p>
+                  <p style="color: aqua;">see more...</p>
+              </div>
+          </div>
+          
+          <div class="card" data-id="3">
+              <img src="src/Assets/projects/robo-race.jpeg" alt="Card 3" class="card-image">
+              <div class="card-content">
+                  <h3 class="card-title"> Robo Race Bot  
 
-    <!-- <div class="sponsor-content">
-        <h3>Coming soon...!!</h3>
-      </div> -->
-
-      <div class="updates-container">
-        <h2>Coming soon ...!!</h2>
+                  </h3>
+                  <p class="card-brief"> Focused on speed and stability, this bot is engineered for high-speed track racing, ensuring smooth navigation through sharp turns and straights. With manual control, it delivers real-time race adjustments for maximum performance. </p>
+                  <p style="color: aqua;">see more...</p>
+              </div>
+          </div>
+          
+          <div class="card" data-id="4">
+              <img src="src/Assets/projects/robo-war.jpg" alt="Card 4" class="card-image">
+              <div class="card-content">
+                  <h3 class="card-title"> Robo War Bot  
+                  </h3>
+                  <p class="card-brief"> As part of the combat robotics division, this bot is built for high-intensity battles, prioritizing durability, power, and strategic control. Currently under development, it will soon be ready for the arena.  
+                  </p>
+                  <p style="color: aqua;">see more...</p>
+              </div>
+          </div>
       </div>
   </div>
-
   
+  <div class="modal" id="modal">
+      <div class="modal-content">
+          <h2 class="modal-title" id="modal-title"></h2>
+          <div class="modal-description" id="modal-description"></div>
+      </div>
+  </div>
+  
+  <!-- return to top -->
+  <button id="topBtn" title="Go to top">
+    <img src="./src/Assets/other-icons/up-arrow.png" alt="up-arrow">
+  </button>
 
        <!-- footer -->
     <footer>
@@ -128,7 +174,7 @@
         <div class="about-stes">
             <img src="src/Assets/stes-logo/Stes-logo.png" alt="stes-logo">
           <p>
-            STES Robotics isn't just a team, we are a movement forging a legacy where innovation meets purpose, and every robot we create tells a story of passion, teamwork, and vision for the future.
+            "STES Robotics isn't just a team — we're a movement, forging a legacy where innovation meets purpose, and every robot we create tells a story of passion, teamwork, and a vision for the future."
           </p>
           <div  class="copyright">
             <p style="
@@ -174,9 +220,10 @@
 <!-- mediaquery -->
 <script src="src/javascript/mediaquery.js"></script>
 
-<!-- UNDER CONSTRUCTION -->
-<script>
-  alert("This page is coming soon..!!")
- </script>
+<script src="src/javascript/project.js"></script>
+
+
+<!-- reuturn to top -->
+<script src="./src/javascript/return-to-top.js"></script>
 
 </html>
