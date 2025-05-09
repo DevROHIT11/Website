@@ -13,7 +13,7 @@ const cardData = [
     },
     {
         id: 2,
-        title: "Ocean Exploration",
+        title: "Soccer Bot",
         techSpecs: {
             weightCategory: "3kg, 5kg",
             motors: "Mabuchi RS775 with high-torque gearbox ",
@@ -24,7 +24,7 @@ const cardData = [
     },
     {
         id: 3,
-        title: "Desert Safari",
+        title: "Robo Race Bot",
         techSpecs: {
             weightCategory: "2.5kg, 3kg, 5kg",
             motors: "Generic motors with Torque series gearboxes  ",
@@ -36,7 +36,7 @@ const cardData = [
     },
     {
         id: 4,
-        title: "Forest Retreat",
+        title: "Robo War Bot",
         techSpecs: {
             weightCategory: "3kg, 5kg, 8kg, 15kg",
             motors: "Mabuchi RS775 With Custom Gearbox.",
