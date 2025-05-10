@@ -329,6 +329,7 @@ a:hover{
 
   .achievement-description {
     font-size: 0.95rem;
+    text-align: -webkit-center;
   }
 
   .category-content h3 {
