@@ -306,7 +306,7 @@ a:hover{
 
   .achievement-description {
     font-size: 1rem;
-    text-align: justify;
+    text-align: center;
   }
 
   .competition-title {
@@ -329,6 +329,7 @@ a:hover{
 
   .achievement-description {
     font-size: 0.95rem;
+    text-align: center;
   }
 
   .category-content h3 {
